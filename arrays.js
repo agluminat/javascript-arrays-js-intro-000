@@ -18,6 +18,6 @@ function destructivelyAddElementToEndOfArray(chocolateBars, chocolate) {
   return chocolateBars
 }
 
-function accessElementInArray() {
+function accessElementInArray(chocolateBars, chocolate) {
   return chocolateBars[0]
 }
