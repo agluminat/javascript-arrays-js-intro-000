@@ -23,7 +23,8 @@ function accessElementInArray(chocolateBars, chocolate) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
-  return chocolateBars.shift()
+  chocolateBars.shift()
+  return chocolateBars
 }
 
 function removeElementFromBeginningOfArray(chocolateBars) {
@@ -31,5 +32,5 @@ function removeElementFromBeginningOfArray(chocolateBars) {
 }
 
 function destructivelyRemoveElementFromEndOfArray(chocolateBars) {
-  re
+  
 }
